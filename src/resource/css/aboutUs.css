@@ -1,0 +1,26 @@
+.welcomePage{
+    margin-bottom: 30px;
+}
+
+.welcomePage img{
+    width: 25%;
+}
+
+.welcomePage-content{
+    padding-left: 1.5rem;
+}
+
+.welcomePage-content__header{
+    text-align: center;
+}
+
+.welcomePage-content__text{
+    font-size: 1.2rem;
+    padding: 20px 0;
+}
+
+@media (max-width: 700px) {
+    .welcomePage img{
+        display: none
+    }
+}

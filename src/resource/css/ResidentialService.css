@@ -1,0 +1,142 @@
+.residentialService-header{
+    background-image: url("../img/residential-service/residential-hero.jpg");
+    background-size: cover;
+    background-position:center;
+    background-color: #fff;
+    color: white;
+}
+
+.residentialService-header .content{
+    margin-top: 20px;
+}
+
+.residentialService-header h1{
+    margin-top: 100px;
+}
+
+.residentialService-header__back{
+    padding-top: 30px;
+}
+
+.residentialService-header__back a{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: white;
+}
+
+.residentialService-header__back img{
+    margin-right: 15px;
+}
+
+.residentialService-header p{
+    width: 35%;
+    margin-bottom: 30px;
+}
+
+.residentialService-header .btn {
+    margin-bottom: 100px;
+}
+
+.residentialService-content{
+    margin-top: 20px;
+}
+
+.residentialService-content__item{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--gray);
+}
+
+.residentialService-content__item img{
+    width: 35%;
+}
+
+.item-textContent{
+    width: 60%;
+}
+
+.item-header{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.item-text{
+    margin-bottom: 10px;
+}
+
+.residentialService-content__item .mobile{
+    display:none;
+}
+
+.mobileBtn{
+    display: none;
+}
+
+.mobileResidentialService-content{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .residentialService-header__back a{
+        color: var(--black);
+    }
+
+    .residentialService-header{
+        background-image: none;
+        color: var(--black);
+    }
+
+    .residentialService-header h1{
+        margin-top: 40px;
+    }
+
+    .residentialService-header p{
+        width: 100%;
+    }
+
+    .residentialService-header .btn{
+        display: none;
+    }
+
+    .residentialService .mobileImg{
+        background-image: url("../img/residential-service/residential-hero.jpg");
+    }
+
+    .mobileImg{
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+        background-position:center;
+    }
+
+    .mobileBtn{
+        display: block;
+        margin: 0 auto;
+        margin-top: 2rem;
+        padding: 1rem 0;
+        width: 60%;
+        background-color: var(--black);
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: 20px;
+    }
+
+    .mobileResidentialService-content{
+        display: block;
+    }
+
+    .item-textContent{
+        width: 100%;
+    }
+
+    .residentialService-content__item img{
+        display: none;
+        width: 100%;
+    }
+
+    .residentialService-content__item .mobile{
+        display:block;
+    }
+}
